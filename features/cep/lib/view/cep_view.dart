@@ -1,7 +1,8 @@
 import 'package:cep/repository/adapter/cep_adapter.dart';
 import 'package:cep/viewmodel/cep_viewmodel.dart';
-
+import 'package:core/core.dart';
 import 'package:flutter/material.dart';
+
 import 'cep_state.dart';
 
 class CepView extends StatefulWidget {
@@ -26,10 +27,9 @@ class _CepViewState extends State<CepView> {
 
         final args = CepAdapter.toMap(result.cep);
 
-        Navigator.pushNamed(
-          context,
+        context.go(
           '/details',
-          arguments: args,
+          extra: args,
         );
       }
     });

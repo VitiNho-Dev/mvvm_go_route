@@ -1,5 +1,5 @@
-import 'package:cep/repository/datasource/cep_datasource.dart';
 import 'package:cep/repository/cep_repository.dart';
+import 'package:cep/repository/datasource/cep_datasource.dart';
 import 'package:cep/view/cep_view.dart';
 import 'package:cep/viewmodel/cep_viewmodel.dart';
 import 'package:core/core.dart';

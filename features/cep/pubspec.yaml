@@ -13,8 +13,9 @@ dependencies:
     sdk: flutter
 
   core:
-    path: ../core    
-
+    path: ../core
+  details:
+    path: ../details
 
 
 dev_dependencies:
